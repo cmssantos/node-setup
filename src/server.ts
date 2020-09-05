@@ -5,7 +5,7 @@ import '@controllers/UsersController'
 const app = express()
 
 app.get('/', (_, res) => {
-    return res.json({ message: 'ok' })
+  return res.json({ message: 'ok' })
 })
 
 app.listen(3333)
